@@ -1,0 +1,6 @@
+
+#Logs
+logs/*.log
+
+#Python cache
+__pycache__/
