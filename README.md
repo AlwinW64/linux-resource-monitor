@@ -21,7 +21,7 @@ This project was built as a small, practical SRE-style monitoring agent focusing
 ---
 
 ## Project Structure
-
+```
 linux-resource-monitor/
 ├── monitor.py # Main monitoring logic
 ├── config.py # Thresholds and configuration
@@ -31,7 +31,7 @@ linux-resource-monitor/
 │ ├── metrics.log # Resource usage logs
 │ └── alerts.log # Alert events
 └── venv/ # Python virtual environment 
-
+```
 ## Environment Setup
 
 This project uses a Python virtual environment to isolate dependencies and avoid modifying system-level Python packages.
