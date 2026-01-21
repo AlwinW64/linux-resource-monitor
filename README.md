@@ -79,9 +79,19 @@ Alerts Log (logs/alerts.log)
 Contains alert events and operational messages:
 
 ```ALERT | 2026-01-21 19:12:44 | CPU usage high: 92.3% ```
+
 ``` ALERT | 2026-01-21 19:14:02 | Monitor stopped by user (Ctrl+C) ```
 
 Logs are append-only and designed for inspection using standard Linux tools such as less, tail, and grep.
+
+Commands to access log:
+```
+tail -f logs/metrics.log
+less logs/metrics.log
+
+tail -f logs/alerts.log
+less logs/alerts.log
+```
 
 ## Testing & Validation
 
